@@ -1,0 +1,19 @@
+# Ignore API keys & credentials
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore virtual environments
+venv/
+.fenv/
+
+# Ignore database or FAISS indexes
+models/faiss_index/
